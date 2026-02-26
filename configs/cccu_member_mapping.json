@@ -1,0 +1,31 @@
+{
+  "cu_id": "CCCU_MEMBER",
+  "cu_name": "Coastal Community Credit Union",
+  "source_type": "CSV",
+  "adapter_version": "1.0",
+  "target_table": "Members",
+  "file_delimiter": ",",
+  "has_header": true,
+  "date_default_format": "yyyy-MM-dd",
+  "mappings": [
+    { "source_col": "memberid",      "target_col": "member_id",       "transform": "trim",           "required": true },
+    { "source_col": "uuid",          "target_col": "entity_uuid",     "transform": "trim"                            },
+    { "source_col": "name",          "target_col": "member_name",     "transform": "trim"                            },
+    { "source_col": "DOB",           "target_col": "birth_date",      "transform": "date:yyyy-MM-dd"                 },
+    { "source_col": "street",        "target_col": "street_name",     "transform": "trim"                            },
+    { "source_col": "building",      "target_col": "building_number", "transform": "trim"                            },
+    { "source_col": "pin",           "target_col": "postal_code",     "transform": "trim"                            },
+    { "source_col": "town",          "target_col": "town_name",       "transform": "trim"                            },
+    { "source_col": "state",         "target_col": "state",           "transform": "trim"                            },
+    { "source_col": "country",       "target_col": "country",         "transform": "trim"                            },
+    { "source_col": "tax_id_masked", "target_col": "tax_id_masked",   "transform": "trim"                            },
+    { "source_col": "email",         "target_col": "email",           "transform": "trim"                            },
+    { "source_col": "cell",          "target_col": "phone_number",    "transform": "trim"                            },
+    { "source_col": null,            "target_col": "as_of_date",      "transform": "default:utcnow"                  }
+  ],
+  "dq_rules": [
+    { "column": "member_id",  "rule": "not_null",   "action": "log_and_skip" },
+    { "column": "birth_date", "rule": "valid_date", "action": "log_and_skip" },
+    { "column": "email",      "rule": "not_null",   "action": "log_and_skip" }
+  ]
+}

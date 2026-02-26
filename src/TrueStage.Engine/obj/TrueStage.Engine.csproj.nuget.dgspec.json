@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Engine\\TrueStage.Engine.csproj": {}
+  },
+  "projects": {
+    "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.ConfigLoader\\TrueStage.ConfigLoader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.ConfigLoader\\TrueStage.ConfigLoader.csproj",
+        "projectName": "TrueStage.ConfigLoader",
+        "projectPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.ConfigLoader\\TrueStage.ConfigLoader.csproj",
+        "packagesPath": "C:\\Users\\nandha.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.ConfigLoader\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nandha.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\TrueStage.Core.csproj": {
+                "projectPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\TrueStage.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.22.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\TrueStage.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\TrueStage.Core.csproj",
+        "projectName": "TrueStage.Core",
+        "projectPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\TrueStage.Core.csproj",
+        "packagesPath": "C:\\Users\\nandha.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nandha.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Engine\\TrueStage.Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Engine\\TrueStage.Engine.csproj",
+        "projectName": "TrueStage.Engine",
+        "projectPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Engine\\TrueStage.Engine.csproj",
+        "packagesPath": "C:\\Users\\nandha.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nandha.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.ConfigLoader\\TrueStage.ConfigLoader.csproj": {
+                "projectPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.ConfigLoader\\TrueStage.ConfigLoader.csproj"
+              },
+              "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\TrueStage.Core.csproj": {
+                "projectPath": "D:\\Truestage\\Git\\truestage_adaptor\\src\\TrueStage.Core\\TrueStage.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.18.2, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.22.2, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

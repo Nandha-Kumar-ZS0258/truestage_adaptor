@@ -1,0 +1,13 @@
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\bin\Debug\net8.0\TrueStage.Core.deps.json
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\bin\Debug\net8.0\TrueStage.Core.dll
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\bin\Debug\net8.0\TrueStage.Core.pdb
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.csproj.AssemblyReference.cache
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.AssemblyInfoInputs.cache
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.AssemblyInfo.cs
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.csproj.CoreCompileInputs.cache
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.sourcelink.json
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.dll
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\refint\TrueStage.Core.dll
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\TrueStage.Core.pdb
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.Core\obj\Debug\net8.0\ref\TrueStage.Core.dll

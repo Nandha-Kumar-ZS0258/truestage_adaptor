@@ -1,0 +1,16 @@
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\bin\Debug\net8.0\TrueStage.ConfigLoader.deps.json
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\bin\Debug\net8.0\TrueStage.ConfigLoader.dll
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\bin\Debug\net8.0\TrueStage.ConfigLoader.pdb
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\bin\Debug\net8.0\TrueStage.Core.dll
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\bin\Debug\net8.0\TrueStage.Core.pdb
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.csproj.AssemblyReference.cache
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.GeneratedMSBuildEditorConfig.editorconfig
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.AssemblyInfoInputs.cache
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.AssemblyInfo.cs
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.csproj.CoreCompileInputs.cache
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.sourcelink.json
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStag.51703659.Up2Date
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.dll
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\refint\TrueStage.ConfigLoader.dll
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\TrueStage.ConfigLoader.pdb
+D:\Truestage\Git\truestage_adaptor\src\TrueStage.ConfigLoader\obj\Debug\net8.0\ref\TrueStage.ConfigLoader.dll

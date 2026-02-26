@@ -1,0 +1,22 @@
+{
+  "cu_id": "CU_GAMMA",
+  "cu_name": "Coastal Community Credit Union",
+  "source_type": "CSV",
+  "adapter_version": "1.0",
+  "target_table": "Members",
+  "file_delimiter": ",",
+  "has_header": true,
+  "date_default_format": "yyyy-MM-dd",
+  "mappings": [
+    { "source_col": "member_id",    "target_col": "source_member_id", "transform": "trim",           "required": true },
+    { "source_col": "member_name",  "target_col": "first_name",       "transform": "trim"                            },
+    { "source_col": "birth_date",   "target_col": "date_of_birth",    "transform": "date:yyyy-MM-dd"                 },
+    { "source_col": "email",        "target_col": "email",            "transform": "trim"                            },
+    { "source_col": "phone_number", "target_col": "phone",            "transform": "trim"                            },
+    { "source_col": null,           "target_col": "as_of_date",       "transform": "default:utcnow"                  }
+  ],
+  "dq_rules": [
+    { "column": "source_member_id", "rule": "not_null",   "action": "log_and_skip" },
+    { "column": "date_of_birth",    "rule": "valid_date", "action": "log_and_skip" }
+  ]
+}

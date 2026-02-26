@@ -1,0 +1,67 @@
+{
+  "cu_id": "CU_BETA",
+  "cu_name": "Beta Federal Credit Union",
+  "source_type": "CSV",
+  "adapter_version": "1.0",
+  "target_table": "Members",
+  "file_delimiter": "|",
+  "has_header": true,
+  "date_default_format": "yyyy-MM-dd",
+  "mappings": [
+    {
+      "source_col": "MEMBER_NUM",
+      "target_col": "source_member_id",
+      "transform": "trim",
+      "required": true
+    },
+    {
+      "source_col": "FIRST_NAME",
+      "target_col": "first_name",
+      "transform": "trim"
+    },
+    {
+      "source_col": "LAST_NAME",
+      "target_col": "last_name",
+      "transform": "trim"
+    },
+    {
+      "source_col": "BIRTH_DATE",
+      "target_col": "date_of_birth",
+      "transform": "date:yyyy-MM-dd"
+    },
+    {
+      "source_col": "EMAIL_ADDR",
+      "target_col": "email",
+      "transform": "trim"
+    },
+    {
+      "source_col": "PHONE_NUM",
+      "target_col": "phone",
+      "transform": "trim"
+    },
+    {
+      "source_col": "ACCT_BAL",
+      "target_col": "account_balance",
+      "transform": "trim, to_decimal"
+    },
+    {
+      "source_col": "MBR_STATUS",
+      "target_col": "member_status",
+      "transform": "value_map:ACTIVE->ACTIVE,INACTIVE->INACTIVE,CLOSED->CLOSED"
+    },
+    {
+      "source_col": "BRANCH_ID",
+      "target_col": "branch_code",
+      "transform": "trim"
+    },
+    {
+      "source_col": null,
+      "target_col": "as_of_date",
+      "transform": "default:utcnow"
+    }
+  ],
+  "dq_rules": [
+    { "column": "source_member_id", "rule": "not_null", "action": "log_and_skip" },
+    { "column": "account_balance",  "rule": "positive",  "action": "log_and_skip" }
+  ]
+}

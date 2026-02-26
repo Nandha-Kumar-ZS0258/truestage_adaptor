@@ -1,0 +1,6 @@
+MemberID,FName,LName,DOB,Email,Phone,Bal,Status,Branch
+M001,John,Doe,01/15/1985,john.doe@email.com,555-1234,1200.50,A,BR01
+M002,Jane,Smith,03/22/1990,jane.smith@email.com,555-5678,850.00,I,BR02
+M003,Bob,Johnson,07/04/1978,bob.j@email.com,555-9012,3400.00,A,BR01
+M004,Alice,Williams,11/30/1995,alice.w@email.com,555-3456,225.75,A,BR03
+M005,Charlie,Brown,05/20/1982,charlie.b@email.com,555-7890,0.00,C,BR02
